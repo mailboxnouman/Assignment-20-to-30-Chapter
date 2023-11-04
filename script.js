@@ -4,17 +4,17 @@
 var storedNum = (3.45214)
 document.write("Original Number :"+" "+ storedNum+"<br>");
 
-num = Math.round(storedNum)
+rounded = Math.round(storedNum)
 
-document.write("Round Off Value : "+storedNum+"<br>")
+document.write("Round Off Value : "+rounded+"<br>")
 
-num = Math.floor(storedNum)
+flored = Math.floor(storedNum)
 
-document.write("Floor Value : "+storedNum+"<br>")
+document.write("Floor Value : "+flored+"<br>")
 
-num = Math.ceil(storedNum)
+ceild = Math.ceil(storedNum)
  
-document.write("Ceil Value :"+storedNum+"<br>")
+document.write("Ceil Value :"+ceild+"<br>")
 
 
 //Question Number 2
@@ -24,17 +24,17 @@ var num = (-2.673)
 
 document.write("Original Number: "+ num+"<br>");
 
-var num = Math.round(num)
+var round2 = Math.round(num)
 
-document.write("Rounf Off Value: "+num+"<br>")
+document.write("Rounf Off Value: "+round2+"<br>")
 
-var num = Math.floor(num)
+var floor2 = Math.floor(num)
  
-document.write("Floor Value: "+num+"<br>")
+document.write("Floor Value: "+floor2+"<br>")
 
-var num = Math.ceil(num)
+var ceil2 = Math.ceil(num)
 
-document.write("Ceil Value: "+num+"<br>")
+document.write("Ceil Value: "+ceil2+"<br>")
 
 //Question Number 3
 
@@ -49,9 +49,11 @@ var random =  Math.floor(Math.random() * 2) +1
 if(random === 1){
     document.write(random + "<br>")
     document.write("Randome Coin Value : Tails")
+    document.write("<br>")
 }else{
     document.write(random + "<br>")
     document.write("Randome Coin Value : Heads")
+    document.write("<br>")
 }
 
 //Question Number 5
@@ -87,7 +89,7 @@ for (var i = 0; i < userData.length; i++) {
     }
 }
 
-if (result !== "") {
+if (filteredNum !== "") {
     document.write("The weight of user is " + filteredNum + " kilograms.");
 } else {
     alert("Please Enter your valid weight.");
