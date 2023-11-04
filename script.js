@@ -60,7 +60,7 @@ if(random === 1){
 
 var Unique =  Math.ceil(Math.random() * 100) +1
 
-document.write("Random Number Between 1 and 100: "+Unique)
+document.write("Random Number Between 1 and 100: "+Unique + "<br>")
 
 
 //Question Number 6
@@ -108,7 +108,7 @@ var birthyear = Curruntyear - age
 
 document.write("Your Age Is : " + age)
 document.write("<br>")
-document.write("Your Birth Year Is : " + birthyear)
+document.write("Your Birth Year Is : " + birthyear + "<br>")
 
 
 //Question Number 9
