@@ -40,7 +40,7 @@ document.write("Ceil Value: "+ceil2+"<br>")
 
 var Dice = Math.ceil(Math.random() * 6)
 
-document.write("Randome Dice Value: " + " " + Dice)
+document.write("Random Dice Value: " + " " + Dice+ "<br>")
 
 //Question Number 4
 
@@ -48,11 +48,11 @@ var random =  Math.floor(Math.random() * 2) +1
 
 if(random === 1){
     document.write(random + "<br>")
-    document.write("Randome Coin Value : Tails")
+    document.write("Random Coin Value : Tails")
     document.write("<br>")
 }else{
     document.write(random + "<br>")
-    document.write("Randome Coin Value : Heads")
+    document.write("Random Coin Value : Heads")
     document.write("<br>")
 }
 
